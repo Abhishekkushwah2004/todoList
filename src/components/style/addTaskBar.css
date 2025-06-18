@@ -1,0 +1,30 @@
+.addButton{
+    background-color: pink;
+    padding: 8px 15px ;
+    border-radius: 10px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    border:2px solid pink;
+    font-size: 18px;
+    font-weight: bold;
+}
+.addButton:hover{
+    cursor: pointer;
+}
+.inputTask{
+    width: 450px;
+    padding: 8px 15px;
+    border-radius: 10px ;
+    border:2px solid white;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-right: 0;
+    font-size: 18px;
+}
+.inputTask:focus-visible{
+    outline: none;
+}
+form{
+    border-radius: 10px;
+    margin-top:120px;
+}

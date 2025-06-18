@@ -1,0 +1,26 @@
+.list ul li{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+    padding:10px 15px;
+    border-radius: 8px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.list{
+    margin-top:80px ;
+}
+.list ul{
+  max-height: 250px;     /* or any fixed height */
+  overflow-y: auto;      /* enables vertical scrolling */
+  padding:0 10px;
+}
+
+.list ul .complete{
+    background-color: rgba(172, 255, 47, 0.388);
+    text-decoration: line-through;
+}
