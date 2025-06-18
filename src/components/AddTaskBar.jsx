@@ -75,7 +75,7 @@ export default function AddTaskBar() {
                     onChange={handleOnChange} />
                 <button onClick={addTask} className='addButton'>Add Task</button>
             </form>
-            {empty == true ? <p>Enter Correct Input</p> : <p></p>}
+            {empty == true ? <p style={{color:"red"}}>Enter Correct Input</p> : <p></p>}
             <TaskList taskList={task} deleteTodo={deleteTodo} markComplete={markComplete} />
         </>
     )
